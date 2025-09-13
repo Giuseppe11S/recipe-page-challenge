@@ -62,6 +62,23 @@ hr{
   margin: 2.60rem 0;
 }
 
+table{
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+td{
+  font-size: 1.25rem;
+  padding: 1.3rem 3rem;
+  border-bottom: 1px solid grey;
+  vertical-align: center;
+}
+
+.mesurements{
+  color: hsl(332, 51%, 32%);
+}
+
 .cnt-time-rcp{
   background-color: hsl(330, 100%, 98%);
   width: 100%;
@@ -75,3 +92,14 @@ hr{
   font-weight: 600;
   color: black;
 }
+
+.attribution{
+  text-align: center;
+  padding: 1rem;
+}
+
+.attribution p{
+  margin-top: 1rem;
+}
+
+/* Responsive Design */
