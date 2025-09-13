@@ -3,3 +3,63 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: hsl(30, 54%, 90%);
+}
+
+.cnt-bg-card{
+  margin: 7.6rem auto;
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  padding: 3rem 3rem;
+  border-radius: 0.98rem;
+}
+
+img{
+  display: block;
+  width: 100%;
+  border-radius: 0.98rem;
+}
+
+h1{
+  margin-top: 40px;
+  font-weight: 300;
+
+}
+
+h2{
+  color:  hsl(332, 51%, 32%);
+}
+
+p, li , td {
+  color: hsl(30, 10%, 34%) ;
+}
+
+p{
+  margin-top: 1.6rem;
+  font-size: 17px;
+}
+
+li{
+  margin: 0.98rem 1.9rem;
+  font-size: 18px;
+}
+
+li::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+.cnt-time-rcp{
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  margin-top: 1.6rem;
+  padding: 1rem 1rem;
+  border-radius: 0.98rem;
+}
+
+.bold-li{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
