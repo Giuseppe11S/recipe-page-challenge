@@ -103,3 +103,32 @@ td{
 }
 
 /* Responsive Design */
+
+@media screen and (max-width: 375px) {
+
+  body{
+    background-color: white;
+  }
+
+  .cnt-bg-card{
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+    padding: 0px;
+  }
+
+  section img{
+    width: 100%;
+    border-radius: 0px;
+    padding: 0px !important;
+  }
+
+  .cnt-bg-card main,
+  .cnt-bg-card h1,
+  .cnt-bg-card p{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+}
